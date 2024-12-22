@@ -25,8 +25,8 @@ export default class IconPicker {
     constructor(id: string, iconset: string[], pageSize?: number, options?: IconPickerOptions);
     onChange(listener: IconButtonlistener): void;
     setSelected(icon: string): void;
-    setupInputSearch(): void;
-    setupNavButtons(): void;
+    protected setupInputSearch(): void;
+    protected setupNavButtons(): void;
     protected updateElements(groupList: GroupList, arrGroup: string[], totalResult: number, navButtons: NavButtons): void;
     setPopoverTheme(theme: string): void;
     mount(): void;

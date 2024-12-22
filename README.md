@@ -13,7 +13,7 @@ Vanilla Javascript Icon Picker (made with Typescript)
 ### Via NPM
 
 ```
-npm i iconpicker
+npm i @davicotico/iconpicker
 ```
 
 ## Usage

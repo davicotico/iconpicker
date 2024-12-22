@@ -1,5 +1,5 @@
 {
-  "name": "iconpicker",
+  "name": "@davicotico/iconpicker",
   "version": "1.0.0",
   "description": "Vanilla Javascript Icon Picker (made with Typescript)",
   "main": "./lib/index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davicotico/IconPicker.git"
+    "url": "git+https://github.com/davicotico/iconpicker.git"
   },
   "author": {
     "name": "David Tomas Ticona Saravia",
@@ -22,10 +22,12 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davicotico/IconPicker/issues"
+    "url": "https://github.com/davicotico/iconpicker/issues"
   },
   "keywords": [
     "javascript-icon-picker",
+    "javascript-iconpicker",
+    "vanilla-iconpicker",
     "icon-picker",
     "iconpicker",
     "icons",

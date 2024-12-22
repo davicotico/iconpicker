@@ -1,10 +1,11 @@
-# IconPicker
+# ICONPICKER
 Vanilla Javascript Icon Picker (made with Typescript)
 
 ## Features
 
 * Vanilla Javascript
 * Fully customizable
+* Dark/Light mode
 * Lightweight (24 KB gzipped)
 
 ## Installation
@@ -12,7 +13,7 @@ Vanilla Javascript Icon Picker (made with Typescript)
 ### Via NPM
 
 ```
-npm i @davicotico/icon-picker
+npm i iconpicker
 ```
 
 ## Usage
@@ -88,6 +89,13 @@ iconPicker.onChange((params) => {
 
 MIT
 
+## Changelog
+
+#### v1.0.0
+* First release
+
 ## Contact
-* Twitter: @davicotico
-* Linkedin: 
+
+[![Linkedin Badge](https://img.shields.io/badge/Linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-ticona-saravia/)
+
+[![Twitter](https://img.shields.io/twitter/url?url=https://x.com/davicotico?style=social&label=Follow%20%40davicotico)](https://x.com/davicotico)

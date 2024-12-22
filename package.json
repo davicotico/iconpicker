@@ -1,5 +1,5 @@
 {
-  "name": "@davicotico/icon-picker",
+  "name": "iconpicker",
   "version": "1.0.0",
   "description": "Vanilla Javascript Icon Picker (made with Typescript)",
   "main": "./lib/index.js",

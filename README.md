@@ -18,11 +18,20 @@ npm i iconpicker
 
 ## Usage
 
+Using a div element (inline)
+
 ```html
 <div style="250px" id="element-id"></div>
 ```
 
+Or using a button (open a popover)
+
+```html
+<button id="element-id" class="btn btn-primary"></button>
+```
+
 ```javascript
+/*const iconset = ['fa-solid fa-home', 'fa-solid fa-star',...]; */
 const iconPicker = new IconPicker('element-id', iconset, 20, { iconButtonClass: 'btn btn-secondary' });
 iconPicker.onChange((params) => {
   console.log(params.icon);

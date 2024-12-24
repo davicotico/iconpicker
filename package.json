@@ -1,6 +1,6 @@
 {
   "name": "@davicotico/iconpicker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vanilla Javascript Icon Picker (made with Typescript)",
   "main": "./lib/index.js",
   "publishConfig": {
@@ -10,7 +10,7 @@
     ".": {
       "import": "./lib/index.js",
       "require": "./lib/index.umd.js"
-    }, 
+    },
     "./iconsets/": {
       "import": "./lib/iconsets/",
       "require": "./lib/iconsets/"

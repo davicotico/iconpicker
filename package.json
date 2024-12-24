@@ -10,6 +10,14 @@
     ".": {
       "import": "./lib/index.js",
       "require": "./lib/index.umd.js"
+    }, 
+    "./iconsets/": {
+      "import": "./lib/iconsets/",
+      "require": "./lib/iconsets/"
+    },
+    "./css": {
+      "import": "./lib/css/",
+      "require": "./lib/css/"
     }
   },
   "repository": {

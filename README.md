@@ -1,10 +1,12 @@
 # ICONPICKER
 Vanilla Javascript Icon Picker (made with Typescript)
 
+## [>>> Demo <<<](https://davidticona.com/demos/javascript-iconpicker/)
+
 ## Features
 
 * Vanilla Javascript
-* Fully customizable
+* Fully customizable (custom iconset, custom style)
 * Dark/Light mode
 * Lightweight (24 KB gzipped)
 
@@ -31,8 +33,14 @@ Or using a button (open a popover)
 ```
 
 ```javascript
+import { IconPicker } from "@davicotico/iconpicker";
+import '@davicotico/iconpicker/css/styles.css';
+import '@davicotico/iconpicker/css/themes/dark.css';
+import '@davicotico/iconpicker/css/themes/light.css';
+import { bi } from '@davicotico/iconpicker/iconsets/bi'; /* bootstrap iconset */
+// or
 /*const iconset = ['fa-solid fa-home', 'fa-solid fa-star',...]; */
-const iconPicker = new IconPicker('element-id', iconset, 20, { iconButtonClass: 'btn btn-secondary' });
+const iconPicker = new IconPicker('element-id', bi, 20, { iconButtonClass: 'btn btn-secondary' });
 iconPicker.onChange((params) => {
   console.log(params.icon);
 });
@@ -99,6 +107,9 @@ iconPicker.onChange((params) => {
 MIT
 
 ## Changelog
+
+#### v1.0.1
+* fix: iconsets path, styles path
 
 #### v1.0.0
 * First release

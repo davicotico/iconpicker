@@ -108,6 +108,9 @@ MIT
 
 ## Changelog
 
+#### v1.0.2
+* fix: styles path
+
 #### v1.0.1
 * fix: iconsets path, styles path
 

@@ -1,6 +1,7 @@
 import tippy, { Instance } from "tippy.js";
 import { PopOverPlacement } from "./types";
 import 'tippy.js/dist/tippy.css';
+import 'tippy.js/animations/scale.css';
 
 export class Popover {
   protected instance: Instance;
@@ -12,7 +13,14 @@ export class Popover {
       interactive: true,
       trigger: "click",
       placement: placement,
+      animation: 'scale',
       theme: theme,
+      onShown()  {
+        const input = container.getElementsByTagName('input');
+        if (input.length > 0) {
+          input.item(0)?.focus();
+        }
+      }
     });
   }
 

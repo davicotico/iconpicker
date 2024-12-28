@@ -36,7 +36,8 @@ export default class IconPicker {
         this.container = element as HTMLDivElement;
       break;
       case 'BUTTON':
-        this.container = createDiv(id  + '-ip-container', '200px')
+        let width: string = ((pageSize % 5) == 0) ? '250px' : '200px';
+        this.container = createDiv(id  + '-ip-container', width)
         this.isButton = true;
         this.button = makeIconPickerButton(element as HTMLButtonElement);
       break;

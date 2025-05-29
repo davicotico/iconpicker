@@ -15,10 +15,9 @@
       "import": "./lib/iconsets/",
       "require": "./lib/iconsets/"
     },
-    "./css/": {
-      "import": "./lib/css/",
-      "require": "./lib/css/"
-    }
+    "./styles.css": "./lib/css/styles.css",
+    "./light.css": "./lib/css/themes/light.css",
+    "./dark.css": "./lib/css/themes/dark.css"
   },
   "repository": {
     "type": "git",

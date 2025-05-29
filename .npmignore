@@ -4,3 +4,6 @@ examples
 dist
 src
 *.html
+tsconfig.json
+vide.config-prod.ts
+vide.config-page.ts
